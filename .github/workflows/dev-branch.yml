@@ -2,7 +2,7 @@ name: Deploy Node.js project dev branch to Azure Function App
 
 on:
   push:
-    branches: "main"
+    branches: "dev"
 
 env:
   AZURE_FUNCTIONAPP_NAME: 'dev-fo-pos-read-file-fna'   # set this to your function app name on Azure
